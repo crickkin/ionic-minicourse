@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Aplicativo do Mini Curso
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding testando">
+    <ion-label>Nome:</ion-label>
+    <ion-input type="text" placeholder="Clique aqui..." [(ngModel)] = "nome"></ion-input>
+    <ion-button (click)="mostrarNome()">Clique aqui, não é vírus</ion-button>
+    <ion-button routerLink="/triangulo" color="light">Acesse o triangulo</ion-button>
+  </div>
+</ion-content>

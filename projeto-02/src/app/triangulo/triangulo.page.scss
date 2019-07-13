@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+div ion-input {
+    border: #999 solid 1px;
+    border-radius: 2px;
+}
